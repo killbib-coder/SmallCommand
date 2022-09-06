@@ -1,0 +1,18 @@
+name: Smallcommand
+version: '1.1'
+main: fr.killbib_coder.smallcommand.Smallcommand
+authors: [ killbib_coder ]
+description: Most usefull command
+commands:
+  gm:
+    description: Change your gamemode with 2 letters and one number
+    permission: gm.use
+  day:
+    description: Execute time set day
+    permission: day.use
+  night:
+    description: Execute time set night
+    permission: day.use
+  wcl:
+    description: Execute weather clear
+    permission: wcl.use
